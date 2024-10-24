@@ -7,7 +7,6 @@ import  Appointment  from "../../components/appointment/appointment.jsx";
 function AbaCalendar() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Agende os seus serviços médicos</Text>
 
             <FlatList
                 data={appointments}
