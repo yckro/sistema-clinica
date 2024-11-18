@@ -8,14 +8,14 @@ export const styles = {
         padding: 12
     },
     primary: {
-        backgroundColor: COLORS.blue
+        backgroundColor: COLORS.blue,
     },
     danger: {
-        backgroundColor: COLORS.red
+        backgroundColor: COLORS.red,
     },
-
     text: {
         color: "#fff",
+        fontSize: FONT_SIZE.md,
         textAlign: "center"
     }
 

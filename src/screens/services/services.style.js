@@ -1,38 +1,26 @@
-import { COLORS, FONT_SIZES } from "../../constants/theme.js";
+import { COLORS, FONT_SIZE } from "../../constants/theme.js";
 
 export const styles = {
-
     container: {
-        backgroundColor: COLORS.white,
         flex: 1,
+        backgroundColor: COLORS.white,
     },
     banner: {
         backgroundColor: COLORS.blue,
-        paddinTop: 10,
-        paddingBottom: 25,
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        paddingTop: 10,
+        paddingBottom: 25
     },
     name: {
-        fontSize: FONT_SIZES.md,
+        fontSize: FONT_SIZE.md,
         color: COLORS.white,
         fontWeight: "bold",
         marginTop: 5
     },
     specialty: {
-        fontSize: FONT_SIZES.sm,
+        fontSize: FONT_SIZE.sm,
         color: COLORS.white,
         marginTop: 3
-    },
-    icon: {
-        width: 50,
-        height: 50,
-        marginRight: 10
-    },
-    text: {
-        fontSize: FONT_SIZES.md,
-        Color: COLORS.gray1,
-        marginBottom: 15,
-        textAlign: "center"
     }
 }

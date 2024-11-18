@@ -1,28 +1,25 @@
-import { COLORS, FONT_SIZES } from "../../constants/theme.js";
+import { COLORS, FONT_SIZE } from "../../constants/theme.js";
 
 export const styles = {
-
     container: {
-        backgroundColor: COLORS.white,
         flex: 1,
-        paddingTop: 20,
+        backgroundColor: COLORS.white,
+        paddingTop: 12
     },
     item: {
-        borderWidth:1,
-        borderRadius: 6,
+        borderWidth: 1,
         borderColor: COLORS.gray4,
         paddingLeft: 8,
         paddingTop: 15,
-        paddingBottom: 15,
-        
+        paddingBottom: 15
     },
     title: {
-        fontSize: FONT_SIZES.sm,
+        fontSize: FONT_SIZE.sm,
         color: COLORS.gray3,
-        marginBottom: 4,
+        marginBottom: 4
     },
     text: {
-        fontSize: FONT_SIZES.md,
-        color: COLORS.gray1,
+        fontSize: FONT_SIZE.md,
+        color: COLORS.gray1
     }
 }

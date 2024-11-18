@@ -1,10 +1,10 @@
-import { COLORS, FONT_SIZES} from "../../constants/theme.js";
+import { COLORS, FONT_SIZE } from "../../constants/theme.js";
 
 export const styles = {
     container: {
         backgroundColor: COLORS.white,
         flex: 1,
-        padding: 70,
+        padding: 50,
         justifyContent: "space-between"
     },
     containerLogo: {
