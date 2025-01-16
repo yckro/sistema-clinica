@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "clinica-agenda",
-    "slug": "clinica-agenda",
+    "name": "agendei-mobile",
+    "slug": "agendei-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,7 +11,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "newArchEnabled": true,  
     "ios": {
       "supportsTablet": true
     },
